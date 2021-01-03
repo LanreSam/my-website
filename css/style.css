@@ -579,10 +579,10 @@ a.active {
     text-align: center;
 }
 
-.portfolio_item img {
+/* .portfolio_item img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-}
+} */
 
 .portfolio-padding {
     padding: 50px 0;
