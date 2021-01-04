@@ -167,7 +167,7 @@ $(document).ready(function () {
     //load initial item
     window.addEventListener("DOMContentLoaded", function () {
         showItem();
-        console.log(container[0].id);
+        console.log(container[3].id);
     });
   
     // show person based on item
