@@ -108,7 +108,7 @@ $(document).ready(function () {
 
     const container = [
          {
-            id: 1,
+            id: 0,
             head: "The Blue Catering Services",
             txt:
                 "The Blue Catering Services offers you catering services for your various events occasions. The Blue Catering services is located in Porthacourt",
@@ -120,7 +120,7 @@ $(document).ready(function () {
 
         {
             //demo: document.getElementById('demo02'),
-            id: 2,
+            id: 1,
             head: "De Dola's Style Loft",
             txt:
                 "De Dola's Style Loft is an instagram Store that sells unisex fashion wears",
@@ -131,12 +131,23 @@ $(document).ready(function () {
         },
 
         {
-            //demo: document.getElementById('demo03'),
+            id: 2,
             head: "Juliaben Stitches",
             txt:
                 "Juliaben Stitches is a fashion Design firm that deals with Ladies wears and fashion in general",
             img:
               "img/portfolio/logo3.jpg",
+            animate:
+                $("#demo03").animatedModal(),
+        },
+
+        {
+            id: 3,
+            head: "SamNuTomOl",
+            txt:
+                "SamNuTomOl is a register multipurpose ventures that sells diffent kind of foodstuffs ranging from Groundnut oil to Rice in bulk",
+            img:
+              "img/portfolio/logo4.png",
             animate:
                 $("#demo03").animatedModal(),
         },
@@ -148,17 +159,16 @@ $(document).ready(function () {
     const image = document.getElementById("img-modal");
     //const modal = document.getElementById('animatedModal')
 
-    let currentItem = 1;
+    let currentItem = container[3].id;
+    // container.forEach(function () {
+        
+    // });
 
     //load initial item
     window.addEventListener("DOMContentLoaded", function () {
         showItem();
-        console.log(container[currentItem]);
+        console.log(container[0].id);
     });
-    // modal.addEventListener('click', function () {
-    //     showItem();
-        
-    // });
   
     // show person based on item
   
