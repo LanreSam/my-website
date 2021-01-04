@@ -108,46 +108,48 @@ $(document).ready(function () {
 
     const container = [
          {
-            demo: document.getElementById('demo01'),
+            id: 1,
             head: "The Blue Catering Services",
             txt:
                 "The Blue Catering Services offers you catering services for your various events occasions. The Blue Catering services is located in Porthacourt",
             img:
-              "./logo1.jpg",
+              "img/portfolio/logo1.jpg",
             animate:
                 $("#demo01").animatedModal(),
         },
 
         {
-            demo: document.getElementById('demo02'),
+            //demo: document.getElementById('demo02'),
+            id: 2,
             head: "De Dola's Style Loft",
             txt:
                 "De Dola's Style Loft is an instagram Store that sells unisex fashion wears",
             img:
               "img/portfolio/logo2.jpg",
             animate:
-            $("#demo02").animatedModal(),
+                $("#demo02").animatedModal(),
         },
 
         {
-            demo: document.getElementById('demo03'),
+            //demo: document.getElementById('demo03'),
             head: "Juliaben Stitches",
             txt:
-                "De Dola's Style Loft is an instagram Store that sells unisex fashion wears",
+                "Juliaben Stitches is a fashion Design firm that deals with Ladies wears and fashion in general",
             img:
-              "img/portfolio/logo2.jpg",
+              "img/portfolio/logo3.jpg",
             animate:
-            $("#demo03").animatedModal(),
+                $("#demo03").animatedModal(),
         },
     ]
 
     // select items
     const txt = document.getElementById('p-txt');
     const head = document.getElementById("head-txt");
-    const image = document.getElementsByClassName("img-responsive");
+    //const image = document.getElementsByClassName("img-responsive");
+    const image2 = document.getElementById("img-modal");
     const modal = document.getElementById('animatedModal')
 
-    let currentItem = 2;
+    let currentItem = 1;
 
     //load initial item
     // window.addEventListener("DOMContentLoaded", function () {
@@ -161,10 +163,10 @@ $(document).ready(function () {
   
     function showItem() {
         const item = container[currentItem];
-        image.src = item.img;
+        image2.src = item.img;
         head.textContent = item.head;
         txt.textContent = item.txt;
-        modal = item.animate;
+        //modal = item.animate;
     }
 
     // Contact Form 	
