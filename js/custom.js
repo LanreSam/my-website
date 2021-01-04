@@ -145,7 +145,6 @@ $(document).ready(function () {
     // select items
     const txt = document.getElementById('p-txt');
     const head = document.getElementById("head-txt");
-    //const image = document.getElementsByClassName("img-responsive");
     const image2 = document.getElementById("img-modal");
     const modal = document.getElementById('animatedModal')
 
@@ -166,7 +165,6 @@ $(document).ready(function () {
         image2.src = item.img;
         head.textContent = item.head;
         txt.textContent = item.txt;
-        //modal = item.animate;
     }
 
     // Contact Form 	
