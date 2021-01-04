@@ -149,7 +149,7 @@ $(document).ready(function () {
             img:
               "img/portfolio/logo4.png",
             animate:
-                $("#demo03").animatedModal(),
+                $("#demo04").animatedModal(),
         },
     ]
 
@@ -158,25 +158,44 @@ $(document).ready(function () {
     const head = document.getElementById("head-txt");
     const image = document.getElementById("img-modal");
 
-    let currentItem = container[3].id;
-    // container.forEach(function () {
-        
-    // });
+
+
+    //let currentItem = container[1].id;
 
     //load initial item
     window.addEventListener("DOMContentLoaded", function () {
-        showItem();
-        console.log(container[3].id);
+        show();
+        //console.log(currentItemArray());
     });
   
-    // show person based on item
-  
-    function showItem() {
-        const item = container[currentItem];
-        image.src = item.img;
-        head.textContent = item.head;
-        txt.textContent = item.txt;
+    //let currentItem = container.forEach((items) => console.log(items.img));
+
+    function show() {
+        container.forEach(element => 
+            {
+            image.src = element.img;
+            head.textContent = element.head;
+            txt.textContent = element.txt;
+            }
+        );
     }
+
+    // show person based on item
+    // function showItem() {
+    //     const item = container[currentItem];
+    //     image.src = item.img;
+    //     head.textContent = item.head;
+    //     txt.textContent = item.txt;
+    // }
+
+
+    // function currentItemArray() {
+    //     container.forEach(element => {
+    //         console.log(element.id);
+    //         element.id;
+    //     });
+    // }
+
 
     // Contact Form 	
 
