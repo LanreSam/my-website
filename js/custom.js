@@ -157,7 +157,6 @@ $(document).ready(function () {
     const txt = document.getElementById('p-txt');
     const head = document.getElementById("head-txt");
     const image = document.getElementById("img-modal");
-    //const modal = document.getElementById('animatedModal')
 
     let currentItem = container[3].id;
     // container.forEach(function () {
