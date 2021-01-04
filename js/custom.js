@@ -173,9 +173,14 @@ $(document).ready(function () {
     function show() {
         container.forEach(element => 
             {
-            image.src = element.img;
-            head.textContent = element.head;
-            txt.textContent = element.txt;
+                const item = container[element.id];
+                image.src = item.img;
+                head.textContent = item.head;
+                txt.textContent = item.txt;
+                console.log(item.id);
+                console.log(image.src = item.img);
+                console.log(head.textContent = item.head);
+                console.log(txt.textContent = item.txt);
             }
         );
     }
