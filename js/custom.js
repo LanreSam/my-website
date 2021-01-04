@@ -104,28 +104,57 @@ $(document).ready(function () {
     });
 
     //animatedModal
-    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
+    //$("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
 
-    const contain = [
+    const container = [
          {
-            id: 1,
+            demo: document.getElementById('demo01'),
             head: "The Blue Catering Services",
+            txt:
+                "The Blue Catering Services offers you catering services for your various events occasions. The Blue Catering services is located in Porthacourt",
             img:
               "img/portfolio/logo1.jpg",
+            animate:
+                $("#demo01").animatedModal(),
         },
 
         {
-            id: 2,
+            demo: document.getElementById('demo02'),
             head: "De Dola's Style Loft",
+            txt:
+                "De Dola's Style Loft is an instagram Store that sells unisex fashion wears",
             img:
               "img/portfolio/logo2.jpg",
+            animate:
+            $("#demo02").animatedModal(),
         },
     ]
 
     // select items
     const txt = document.getElementById('p-txt');
     const head = document.getElementById("head-txt");
-    const img = document.getElementById("img-responsive");
+    const img = document.getElementsByClassName("img-responsive");
+    const modal = document.getElementById('animatedModal')
+
+    let currentItem = 1;
+
+    //load initial item
+    // window.addEventListener("DOMContentLoaded", function () {
+
+    // });
+    modal.addEventListener('click', function () {
+        showItem();
+    });
+  
+    // show person based on item
+  
+    function showItem() {
+        const item = reviews[currentItem];
+        img.src = item.img;
+        head.textContent = item.txt;
+        txt.textContent = item.txt;
+        modal = item.animate;
+    }
 
     // Contact Form 	
 
