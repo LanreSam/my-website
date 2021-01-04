@@ -106,6 +106,27 @@ $(document).ready(function () {
     //animatedModal
     $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
 
+    const contain = [
+         {
+            id: 1,
+            head: "The Blue Catering Services",
+            img:
+              "img/portfolio/logo1.jpg",
+        },
+
+        {
+            id: 2,
+            head: "De Dola's Style Loft",
+            img:
+              "img/portfolio/logo2.jpg",
+        },
+    ]
+
+    // select items
+    const txt = document.getElementById('p-txt');
+    const head = document.getElementById("head-txt");
+    const img = document.getElementById("img-responsive");
+
     // Contact Form 	
 
     // validate contact form
