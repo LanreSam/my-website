@@ -113,7 +113,7 @@ $(document).ready(function () {
             txt:
                 "The Blue Catering Services offers you catering services for your various events occasions. The Blue Catering services is located in Porthacourt",
             img:
-              "img/portfolio/logo1.jpg",
+              "./logo1.jpg",
             animate:
                 $("#demo01").animatedModal(),
         },
@@ -128,12 +128,23 @@ $(document).ready(function () {
             animate:
             $("#demo02").animatedModal(),
         },
+
+        {
+            demo: document.getElementById('demo03'),
+            head: "De Dola's Style Loft",
+            txt:
+                "De Dola's Style Loft is an instagram Store that sells unisex fashion wears",
+            img:
+              "img/portfolio/logo2.jpg",
+            animate:
+            $("#demo03").animatedModal(),
+        },
     ]
 
     // select items
     const txt = document.getElementById('p-txt');
     const head = document.getElementById("head-txt");
-    const img = document.getElementsByClassName("img-responsive");
+    const image = document.getElementsByClassName("img-responsive");
     const modal = document.getElementById('animatedModal')
 
     let currentItem = 1;
@@ -150,10 +161,10 @@ $(document).ready(function () {
   
     function showItem() {
         const item = reviews[currentItem];
-        img.src = item.img;
-        head.textContent = item.txt;
+        image.src = item.img;
+        head.textContent = item.head;
         txt.textContent = item.txt;
-        modal = item.animate;
+        //modal = item.animate;
     }
 
     // Contact Form 	
