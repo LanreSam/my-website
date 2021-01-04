@@ -145,24 +145,26 @@ $(document).ready(function () {
     // select items
     const txt = document.getElementById('p-txt');
     const head = document.getElementById("head-txt");
-    const image2 = document.getElementById("img-modal");
-    const modal = document.getElementById('animatedModal')
+    const image = document.getElementById("img-modal");
+    //const modal = document.getElementById('animatedModal')
 
     let currentItem = 1;
 
     //load initial item
-    // window.addEventListener("DOMContentLoaded", function () {
-
-    // });
-    modal.addEventListener('click', function () {
+    window.addEventListener("DOMContentLoaded", function () {
         showItem();
+        console.log(container[currentItem]);
     });
+    // modal.addEventListener('click', function () {
+    //     showItem();
+        
+    // });
   
     // show person based on item
   
     function showItem() {
         const item = container[currentItem];
-        image2.src = item.img;
+        image.src = item.img;
         head.textContent = item.head;
         txt.textContent = item.txt;
     }
