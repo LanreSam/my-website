@@ -131,7 +131,7 @@ $(document).ready(function () {
 
         {
             demo: document.getElementById('demo03'),
-            head: "De Dola's Style Loft",
+            head: "Juliaben Stitches",
             txt:
                 "De Dola's Style Loft is an instagram Store that sells unisex fashion wears",
             img:
@@ -147,7 +147,7 @@ $(document).ready(function () {
     const image = document.getElementsByClassName("img-responsive");
     const modal = document.getElementById('animatedModal')
 
-    let currentItem = 1;
+    let currentItem = 2;
 
     //load initial item
     // window.addEventListener("DOMContentLoaded", function () {
@@ -160,11 +160,11 @@ $(document).ready(function () {
     // show person based on item
   
     function showItem() {
-        const item = reviews[currentItem];
+        const item = container[currentItem];
         image.src = item.img;
         head.textContent = item.head;
         txt.textContent = item.txt;
-        //modal = item.animate;
+        modal = item.animate;
     }
 
     // Contact Form 	
