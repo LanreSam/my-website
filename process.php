@@ -6,11 +6,11 @@
     $headers = "From: $from";
     $subject = "You have a message.";
 
-    $fields = array();
-    $fields{"name"} = "name";
-    $fields{"email"} = "email";
-    $fields{"phone"} = "phone";
-    $fields{"message"} = "message";
+    $fields = [];
+    $fields["name"] = "name";
+    $fields["email"] = "email";
+    $fields["phone"] = "phone";
+    $fields["message"] = "message";
 
     
 

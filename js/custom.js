@@ -104,9 +104,9 @@ $(document).ready(function () {
     });
 
     //animatedModal
-    //$("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
-
-    const container = [
+    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09,#demo10").animatedModal();
+    
+    var container = [
          {
             id: 0,
             head: "The Blue Catering Services",
@@ -119,15 +119,14 @@ $(document).ready(function () {
         },
 
         {
-            //demo: document.getElementById('demo02'),
             id: 1,
             head: "De Dola's Style Loft",
             txt:
                 "De Dola's Style Loft is an instagram Store that sells unisex fashion wears",
             img:
               "img/portfolio/logo2.jpg",
-            animate:
-                $("#demo02").animatedModal(),
+            demo:
+                "#demo02",
         },
 
         {
@@ -159,47 +158,21 @@ $(document).ready(function () {
     const image = document.getElementById("img-modal");
 
 
-
-    //let currentItem = container[1].id;
-
+    let currentItem = container[2].id;
     //load initial item
     window.addEventListener("DOMContentLoaded", function () {
         show();
-        //console.log(currentItemArray());
     });
-  
-    //let currentItem = container.forEach((items) => console.log(items.img));
+        
+        let demo = [container[0].id,container[1].id,container[2].id];
+        demo.forEach(show);
 
     function show() {
-        container.forEach(element => 
-            {
-                const item = container[element.id];
-                image.src = item.img;
-                head.textContent = item.head;
-                txt.textContent = item.txt;
-                console.log(item.id);
-                console.log(image.src = item.img);
-                console.log(head.textContent = item.head);
-                console.log(txt.textContent = item.txt);
-            }
-        );
+        const item = container[currentItem];
+        image.src = item.img;
+        head.textContent = item.head;
+        txt.textContent = item.txt;
     }
-
-    // show person based on item
-    // function showItem() {
-    //     const item = container[currentItem];
-    //     image.src = item.img;
-    //     head.textContent = item.head;
-    //     txt.textContent = item.txt;
-    // }
-
-
-    // function currentItemArray() {
-    //     container.forEach(element => {
-    //         console.log(element.id);
-    //         element.id;
-    //     });
-    // }
 
 
     // Contact Form 	
