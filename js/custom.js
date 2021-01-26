@@ -8,6 +8,11 @@ $(window).load(function () {
     $('body').delay(350).css({
         'overflow': 'visible'
     });
+
+    var portfolioIsotope = $('.portfolio-container').isotope({
+        itemSelector: '.portfolio-thumbnail',
+        layoutMode: 'fitRows'
+    });
 })
 
 $(document).ready(function () {
@@ -103,76 +108,36 @@ $(document).ready(function () {
 
     });
 
-    //animatedModal
-    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09,#demo10").animatedModal();
+
+    var magnifPopup = function() {
+        $('.popup-img').magnificPopup({
+          type: 'image',
+          removalDelay: 300,
+          mainClass: 'mfp-with-zoom',
+          gallery: {
+            enabled: true
+          },
+          zoom: {
+            enabled: true, // By default it's false, so don't forget to enable it
     
-    var container = [
-         {
-            id: 0,
-            head: "The Blue Catering Services",
-            txt:
-                "The Blue Catering Services offers you catering services for your various events occasions. The Blue Catering services is located in Porthacourt",
-            img:
-              "img/portfolio/logo1.jpg",
-            animate:
-                $("#demo01").animatedModal(),
-        },
-
-        {
-            id: 1,
-            head: "De Dola's Style Loft",
-            txt:
-                "De Dola's Style Loft is an instagram Store that sells unisex fashion wears",
-            img:
-              "img/portfolio/logo2.jpg",
-            demo:
-                "#demo02",
-        },
-
-        {
-            id: 2,
-            head: "Juliaben Stitches",
-            txt:
-                "Juliaben Stitches is a fashion Design firm that deals with Ladies wears and fashion in general",
-            img:
-              "img/portfolio/logo3.jpg",
-            animate:
-                $("#demo03").animatedModal(),
-        },
-
-        {
-            id: 3,
-            head: "SamNuTomOl",
-            txt:
-                "SamNuTomOl is a register multipurpose ventures that sells diffent kind of foodstuffs ranging from Groundnut oil to Rice in bulk",
-            img:
-              "img/portfolio/logo4.png",
-            animate:
-                $("#demo04").animatedModal(),
-        },
-    ]
-
-    // select items
-    const txt = document.getElementById('p-txt');
-    const head = document.getElementById("head-txt");
-    const image = document.getElementById("img-modal");
-
-
-    let currentItem = container[2].id;
-    //load initial item
-    window.addEventListener("DOMContentLoaded", function () {
-        show();
-    });
-        
-        let demo = [container[0].id,container[1].id,container[2].id];
-        demo.forEach(show);
-
-    function show() {
-        const item = container[currentItem];
-        image.src = item.img;
-        head.textContent = item.head;
-        txt.textContent = item.txt;
-    }
+            duration: 300, // duration of the effect, in milliseconds
+            easing: 'ease-in-out', // CSS transition easing function
+    
+            // The "opener" function should return the element from which popup will be zoomed in
+            // and to which popup will be scaled down
+            // By defailt it looks for an image tag:
+            opener: function(openerElement) {
+              // openerElement is the element on which popup was initialized, in this case its <a> tag
+              // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+              return openerElement.is('img') ? openerElement : openerElement.find('img');
+            }
+          }
+        });
+    };
+    
+    
+    // Call the functions
+    magnifPopup();
 
 
     // Contact Form 	

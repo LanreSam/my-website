@@ -452,6 +452,15 @@ a.active {
     padding: 100px 0;
 }
 
+.portfolio-thumbnail {
+    margin-bottom: 30px;
+    overflow: hidden;
+    min-height: 260px;
+}
+.portfolio-thumbnail img {
+    max-width: 100%;
+}
+
 .portfolio .categories-grid span {
     font-size: 30px;
     margin-bottom: 30px;
