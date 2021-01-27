@@ -58,7 +58,7 @@
         <script>
             swal("Subscription Successful!", "{!! Session::get('mail-msg') !!}", "success", {
                 button:"Close",
-                title: "DevsHood",
+                title: "Ezeche Lanre",
                 closeOnClickOutside: false,
             })
         </script>
