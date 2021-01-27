@@ -2,7 +2,9 @@
 
 use App\Http\Controllers\ContactController;
 use App\Http\Livewire\IndexComponent;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\URL;
 
 /*
 |--------------------------------------------------------------------------
