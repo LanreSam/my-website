@@ -32,7 +32,7 @@ class ContactController extends Controller
         //message to be sent to the user's email
         $msg = "I have successfully recieved your mail and will reply you shortly";
         //this sends the user message to the site's mail
-        Mail::to('ezechilanre@gmail.com')->send(new ContactMail($details));
+        Mail::to('ezechelanre@gmail.com')->send(new ContactMail($details));
         //this sends a feedback reply to the user's email
         Mail::to($email)->send(new FeedbackMail($msg));
 
