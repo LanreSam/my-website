@@ -427,19 +427,37 @@
             <div class="h-50"></div>
         </div>
         <div class="col-md-8" data-aos="fade-up">
-            <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate">
+            <form class="contact-bg" id="contact-form" method="post" action="{{ route('contact.send') }}">
                 @csrf
-                <input type="text" name="name" class="form-control" placeholder="Your Name" />
-                <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
-                <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
-                <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" />
+
+                    @error('name')
+                        <span class="text-danger">{{ $message }}</span>
+                    @enderror
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
+
+                    @error('email')
+                        <span class="text-danger">{{ $message }}</span>
+                    @enderror
+                </div>
+                <div class="form-group">
+                    <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
+
+                    @error('phone')
+                        <span class="text-danger">{{ $message }}</span>
+                    @enderror
+                </div>
+                <div class="form-group">
+                    <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
+
+                    @error('message')
+                        <span class="text-danger">{{ $message }}</span>
+                    @enderror
+                </div>
                 <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
-                <div id="success">
-                    <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
-                </div>
-                <div id="error">
-                    <p> Something went wrong, try refreshing and submitting the form again. </p>
-                </div>
             </form>
         </div>
     </div>

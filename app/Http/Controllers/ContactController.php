@@ -35,6 +35,6 @@ class ContactController extends Controller
         //this sends a feedback reply to the user's email
         //Mail::to($email)->send(new feedbackMail($msg));
 
-        return back()->with('mail-msg', "Mail sent successfully. We will reply you shortly.");
+        return back()->with('mail-msg', "Mail sent successfully. I will reply you shortly.");
     }
 }

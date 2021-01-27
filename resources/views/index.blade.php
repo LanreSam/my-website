@@ -53,6 +53,16 @@
 
     <!--  main script  -->
     <script src="{{ asset('assets/js/custom.js') }}"></script>
+
+    @if(Session::has('mail-msg'))
+        <script>
+            swal("Subscription Successful!", "{!! Session::get('mail-msg') !!}", "success", {
+                button:"Close",
+                title: "DevsHood",
+                closeOnClickOutside: false,
+            })
+        </script>
+    @endif
 </body>
 
 </html>
