@@ -28,6 +28,6 @@ class FeedbackMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Ezeche Lanre')->view('emails.feedback');
+        return $this->subject('Feedback Mail from Ezeche Lanre')->view('emails.feedback');
     }
 }
