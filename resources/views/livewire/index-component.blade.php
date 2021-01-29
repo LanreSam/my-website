@@ -19,6 +19,7 @@
                 <h1>Software Developer &<br /> Graphics Designer</h1> </div>
         </div>
     </div>
+    <button class="btn btn-primary px-5 py-3"><a href="#">Download Resume</a></button>
 </div>
 <!-- ./home -->
 
