@@ -56,7 +56,7 @@
             <div class="h-50"></div>
         </div>
         <div class="col-md-6 about-img-div">
-            <img src="{{ asset('assets/img/ezeche-lanre.jpg') }}" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+            <img src="{{ asset('assets/img/ezeche_lanre.jpg') }}" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
             <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
         </div>
     </div>
