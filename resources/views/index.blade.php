@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ezeche Lanre Resume</title>
+    <title>Ezeche Lanre Samuel</title>
     <link rel="icon" href="{{ asset('assets/img/header-icon.png') }}" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
