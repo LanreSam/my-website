@@ -305,7 +305,7 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- end DevsHood -->
+                        <!-- end ACME -->
 
                         <!-- Dashboard -->
                         <div class="col-md-4 col-sm-6 web">
@@ -318,7 +318,7 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- end DevsHood -->
+                        <!-- end Dashboard -->
 
                         <!-- Bee fragrance -->
                         <div class="col-md-4 col-sm-6 graphics">
