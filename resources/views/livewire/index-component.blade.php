@@ -256,6 +256,19 @@
                         </div>
                         <!-- end DevsHood -->
 
+                        <!-- Userco Empire -->
+                        <div class="col-md-4 col-sm-6 web web-dev">
+                            <a href="https://usercoempire.com">Visit DevsHood</a>
+                            <a href="{{ asset('assets/img/portfolio/ezeche_lanre-web04.png') }}" class="portfolio_item shadow popup-img"> <img src="{{ asset('assets/img/portfolio/web04.png') }}" alt="image" class="img-responsive" />
+                                <div class="portfolio_item_hover">
+                                    <div class="portfolio-border clearfix">
+                                        <div class="item_info"> <span>DevsHood</span> <em>Web design / Development</em> </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- end Userco Empire -->
+
                         <!-- Click Music -->
                         <div class="col-md-4 col-sm-6 software">
                             <a href="https://github.com/LanreSam/Click-Music_app/blob/master/Setup.zip">Download Click Music</a>
