@@ -257,7 +257,7 @@
                         <!-- end DevsHood -->
 
                         <!-- Userco Empire -->
-                        <div class="col-md-4 col-sm-6 web web-dev">
+                        <div class="col-md-4 col-sm-6 wp">
                             <a href="https://usercoempire.com">Visit DevsHood</a>
                             <a href="{{ asset('assets/img/portfolio/ezeche_lanre-web04.png') }}" class="portfolio_item shadow popup-img"> <img src="{{ asset('assets/img/portfolio/web04.png') }}" alt="image" class="img-responsive" />
                                 <div class="portfolio_item_hover">
