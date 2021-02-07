@@ -186,6 +186,7 @@
                                 <li><a href="" data-filter=".graphics">Graphics</a></li>
                                 <li><a href="" data-filter=".web">Web Design</a></li>
                                 <li><a href="" data-filter=".web-dev">Web Development</a></li>
+                                <li><a href="" data-filter=".wp">Wordpress</a></li>
                             </ul>
                         </nav>
                     </div>
