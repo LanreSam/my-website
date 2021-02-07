@@ -332,7 +332,7 @@
 
                         <!-- OOU Creche -->
                         <div class="col-md-4 col-sm-6 graphics">
-                            <a href="{{ asset('assets/img/portfolio/graphic6.jpg') }}" class="portfolio_item shadow popup-img"> <img src="{{ asset('assets/img/portfolio/graphic6.jpg') }}" alt="image" class="img-responsive" />
+                            <a href="{{ asset('assets/img/portfolio/ezeche_lanre-graphic6.jpg') }}" class="portfolio_item shadow popup-img"> <img src="{{ asset('assets/img/portfolio/graphic6.jpg') }}" alt="image" class="img-responsive" />
                                 <div class="portfolio_item_hover">
                                     <div class="portfolio-border clearfix">
                                         <div class="item_info"> <span>OOU Creche</span> <em>Graphics / Branding</em> </div>
