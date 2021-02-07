@@ -232,7 +232,7 @@
                         <!-- EVote -->
                         <div class="col-md-4 col-sm-6 web web-dev">
                             <a href="https://oouevote.herokuapp.com">Visit E-vote</a>
-                            <a href="{{ asset('assets/img/portfolio/web03.png') }}" class="portfolio_item shadow popup-img"> <img src="{{ asset('assets/img/portfolio/web03.png') }}" alt="image" class="img-responsive" />
+                            <a href="{{ asset('assets/img/portfolio/ezeche_lanre-web03.png') }}" class="portfolio_item shadow popup-img"> <img src="{{ asset('assets/img/portfolio/web03.png') }}" alt="image" class="img-responsive" />
                                 <div class="portfolio_item_hover">
                                     <div class="portfolio-border clearfix">
                                         <div class="item_info"> <span>OOU E-vote Solution</span> <em>Web design / Development</em> </div>
