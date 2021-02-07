@@ -262,7 +262,7 @@
                             <a href="{{ asset('assets/img/portfolio/ezeche_lanre-web04.png') }}" class="portfolio_item shadow popup-img"> <img src="{{ asset('assets/img/portfolio/web04.png') }}" alt="image" class="img-responsive" />
                                 <div class="portfolio_item_hover">
                                     <div class="portfolio-border clearfix">
-                                        <div class="item_info"> <span>DevsHood</span> <em>Web design / Development</em> </div>
+                                        <div class="item_info"> <span>Userco Empire</span> <em>Wordpress / CMS</em> </div>
                                     </div>
                                 </div>
                             </a>
