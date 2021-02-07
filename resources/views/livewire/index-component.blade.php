@@ -367,7 +367,7 @@
                         </div>
                         <!-- end Expression and Style -->
 
-                        <!-- single work -->
+                        <!-- MFM ago -->
                         <div class="col-md-4 col-sm-6 graphics">
                             <a id="demo25" href="#animatedModal" class="portfolio_item shadow"> <img src="{{ asset('assets/img/portfolio/ezeche_lanre-graphic11.jpg') }}" alt="image" class="img-responsive" />
                                 <div class="portfolio_item_hover">
@@ -377,7 +377,7 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- end single work -->
+                        <!-- end MFM ago-->
                     </div>
                     <!-- end portfolio_container -->
                 </div>
