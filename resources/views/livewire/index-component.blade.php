@@ -297,7 +297,7 @@
                         <!-- ACME -->
                         <div class="col-md-4 col-sm-6 web">
                             <a href="https://lanresam.github.io/acme/">Visit ACME</a>
-                            <a href="{{ asset('assets/img/portfolio/ezeche_lanre-web01.png') }}" class="portfolio_item shadow popup-img"> <img src="{{ asset('assets/img/portfolio/ezeche_lanre-web01.jpg') }}" alt="image" class="img-responsive" />
+                            <a href="{{ asset('assets/img/portfolio/ezeche_lanre-web01.png') }}" class="portfolio_item shadow popup-img"> <img src="{{ asset('assets/img/portfolio/ezeche_lanre-web01.png') }}" alt="image" class="img-responsive" />
                                 <div class="portfolio_item_hover">
                                     <div class="portfolio-border clearfix">
                                         <div class="item_info"> <span>ACME Web Design</span> <em>Web  / Design</em> </div>
