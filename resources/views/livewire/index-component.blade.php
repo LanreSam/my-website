@@ -220,7 +220,7 @@
 
                         <!-- SamNuTomOl -->
                         <div class="col-md-4 col-sm-6 logo">
-                            <a href="{{ asset('assets/img/portfolio/ezeche_lanre-logo4.png') }}" class="portfolio_item shadow popup-img"> <img src="{{ asset('assets/img/portfolio/logo4.png') }}" alt="image" class="img-responsive" />
+                            <a href="{{ asset('assets/img/portfolio/ezeche_lanre-logo4.png') }}" class="portfolio_item shadow popup-img"> <img src="{{ asset('assets/img/portfolio/ezeche_lanre-logo4.png') }}" alt="image" class="img-responsive" />
                                 <div class="portfolio_item_hover">
                                     <div class="portfolio-border clearfix">
                                         <div class="item_info"> <span>SamNuTomOl</span> <em>Logo / Mockup</em> </div>
