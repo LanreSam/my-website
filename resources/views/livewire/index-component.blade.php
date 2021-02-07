@@ -422,7 +422,7 @@
             <h3>Social Network</h3>
 
             <ul class="social">
-                <li><a href="https://web.facebook.com/ezechelanre"><i class="ion-social-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ezeche-lanre/"><i class="ion-social-linkedin"></i></a></li>
                 <li><a href="https://twitter.com/lanre_sam"><i class="ion-social-twitter"></i></a></li>
                 <li><a href="https://www.instagram.com/lanre_sam"><i class="ion-social-instagram"></i></a></li>
                 <li><a href="https://github.com/LanreSam"><i class="ion-social-github"></i></a></li>
