@@ -807,4 +807,7 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
+    #home{
+        background-size: cover;
+    }
 }
