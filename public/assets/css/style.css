@@ -798,10 +798,6 @@ fieldset {
         list-style: none;
         margin: 10px 0;
     }
-    #home{
-        background-color: #888;
-        background-image: none;
-    }
 }
 
 @media (max-width: 420px) {
