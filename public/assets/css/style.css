@@ -809,11 +809,4 @@ fieldset {
     }
 }
 
-@media screen and (min-width: 450px) {
-    #home{
-        background-image: none;
-        background-color: #60606e;
-        background-size: contain;
-        height: 50vh;
-    }
-}
+
