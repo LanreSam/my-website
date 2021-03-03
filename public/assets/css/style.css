@@ -808,6 +808,6 @@ fieldset {
         font-size: 10px;
     }
     #home{
-        background-size: cover;
+        background-size: contain;
     }
 }
