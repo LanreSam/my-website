@@ -285,7 +285,6 @@ a.active {
     background: url(../img/img-bg2.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
-    width: auto;
 }
 
 .table-cell {
@@ -798,6 +797,10 @@ fieldset {
     .portfolio .categories-grid .categories ul li {
         list-style: none;
         margin: 10px 0;
+    }
+    #home{
+        background-color: #888;
+        background-image: none;
     }
 }
 
