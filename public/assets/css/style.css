@@ -807,6 +807,9 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
+}
+
+@media (max-width: 480px){
     #home{
         background-size: contain;
     }
