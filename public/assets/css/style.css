@@ -283,7 +283,7 @@ a.active {
 
 #home {
     background: url(../img/img-bg2.jpg) no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
 }
 
