@@ -809,7 +809,7 @@ fieldset {
     }
 }
 
-@media (max-width: 480px){
+@media screen and (max-width: 480px) {
     #home{
         background-size: contain;
         height: 50vh;
