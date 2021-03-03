@@ -809,4 +809,10 @@ fieldset {
     }
 }
 
+@media screen and (min-height: 400px){
+    #home{
+        height: 50vh;
+    }
+}
+
 
