@@ -17,7 +17,7 @@
             <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
                 <h4>Ezeche Lanre</h4>
                 <h1>Software Developer &<br /> Graphics Designer</h1>
-                <a href="{{ asset('Ezeche-Lanre-Samuel-resume.pdf') }}"><button class="btn btn-primary px-5 py-4" style="margin-top: 30px">Download Resume</button></a>
+                <a href="{{ asset('assets/img/Ezeche-Lanre-Samuel-resume.pdf') }}"><button class="btn btn-primary px-5 py-4" style="margin-top: 30px">Download Resume</button></a>
             </div>
         </div>
     </div>
