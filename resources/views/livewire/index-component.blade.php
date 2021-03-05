@@ -33,7 +33,7 @@
             <div class="h-50"></div>
             <p>
                 I love coding and creativity.
-                I solve problems in creative and innovative ways. I'm currently a 300L computer science student at the prestigious Olabisi Onabanjo University, Ogun State, Nigeria.
+                I solve problems in creative and innovative ways. I'm currently a final year computer science student at Olabisi Onabanjo University, Ogun State, Nigeria.
                 I have learned the importance of applying classical strategies to modern-day projects.
             </p>
             <p>
